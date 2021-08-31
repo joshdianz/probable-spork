@@ -1,0 +1,117 @@
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+#table1 {
+    width: 50%;
+    justify-content: space-between;
+}
+
+#table2 {
+    width: 100%;
+}
+#cancel {
+    font-size: 18px;
+    color: rgb(51, 118, 173);
+    border-width: 5px;
+    border: grey;
+    margin-right: 15px;
+    padding: 15px 32px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#submit {
+    background-color: rgb(51, 118, 173);
+    border: none;
+    font-size: 18px;
+    color: white;
+    border-radius: 2px;
+    padding: 15px 32px;
+    font-size: 12px;
+}
+/* .button {
+    margin-left: 93%;
+    color: rgb(19, 18, 18);
+    font-weight: bold;
+    cursor: pointer;
+} */
+
+.divv:hover{
+    background: rgb(187, 186, 186);
+}
+#table2{
+    cursor: pointer;
+    justify-content: space-between;
+}
+th{
+    text-align: left;
+    font-weight: normal;
+}
+td{
+    text-align: left;
+    font-weight: bold;
+}
+input[type=checkbox]:checked + label{
+    color: rgb(0, 121, 130);
+}
+.close{
+    margin-left: 800px;
+    cursor: pointer;
+}
+.divv:checked{
+    background-color: grey;
+}
+input[type=checkbox]:checked{
+    background-color: grey;
+}
+.btn{
+    display: flex;
+    justify-content: flex-end;
+}
+caption{
+    display: flex;
+    justify-content: flex-start;
+}
+.btn-group{
+    float: right;
+    padding-inline-end: 115px;
+}
+#btn-3{
+    color:rgb(51, 118, 173);
+    background-color: rgb(158, 193, 223);;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    justify-content: flex-end;
+    margin-left: 690px;
+}
+#btn-2{
+    color:rgb(51, 118, 173);
+    background-color: rgb(158, 193, 223);;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    justify-content: flex-end;
+    margin-left: 820px;
+}
+.grouped{
+    display: flex;
+    justify-content: space-between;
+}
+#td1,#th1{
+    justify-content: space-between;
+}
+.divboxshadow{
+    box-shadow: rgb(119, 119, 119) 10px 10px 10px 10px;
+    height: 700px;
+    width: 1000px;
+    justify-content: center;
+    align-items: center;
+}
+.boxshadow2{
+    background-color: rgb(207, 207, 207);
+}
+#main{
+    margin-top: 350px;
+}

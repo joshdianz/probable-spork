@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Portfolio</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="C:\Users\Admin\Desktop\web portfolio\CSS\style.css">
+    <link rel="stylesheet" href="C:\Users\Admin\Desktop\web portfolio\CSS\style1.css">
+    <link rel="stylesheet" href="C:\Users\Admin\Desktop\web portfolio\CSS\style2.css">
+    <link rel="stylesheet" href="C:\Users\Admin\Desktop\web portfolio\CSS\style3.css">
+</head>
+<body>
+    <!-- web portfolio -->
+    <div class="container">
+        <div id="header">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="mailto:joshuakakama111@gmail.com? subjct=subject text">joshuakakama111@gmail.com |</a></li>
+                    <li><a href="https://api.whatsapp.com/send?phone=+27 81 866 2035">081 866 2035 |</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="divvv">
+            <h3 style="color: white; font-size: 50px;">web portfolio.</h3>
+            <h1 style="color: white; font-size: 100px;">Joshua Kakama</h1>
+        </div>
+    </div>
+        <div class="viewport">
+            <div class="control left-arrow"><i class="fas fa-arrow-left"></i></div>
+            <div class="cube cube-1">
+                <div class="face front"></div>
+                <div class="face back"></div>
+                <div class="face top"></div>
+                <div class="face bottom"></div>
+                <div class="face left"></div>
+                <div class="face right"></div>
+            </div>
+            <div class="cube cube-2">
+                <div class="face front"></div>
+                <div class="face back"></div>
+                <div class="face top"></div>
+                <div class="face bottom"></div>
+                <div class="face left"></div>
+                <div class="face right"></div>
+            </div>
+            <div class="cube cube-3">
+                <div class="face front"></div>
+                <div class="face back"></div>
+                <div class="face top"></div>
+                <div class="face bottom"></div>
+                <div class="face left"></div>
+                <div class="face right"></div>
+            </div>
+            <div class="control right-arrow"><i class="fas fa-arrow-right"></i></div>
+            <div class="control play-pause"><i class="fas fa-play"></i></div>
+        </div>
+    </div>
+    <!-- sanlam form -->
+    <div id="Plan">
+        <div id="sanlam">
+            <h3>Search Sanlam plan <i>X</i></h3>
+            <hr>
+            <br>
+            <aside>
+                <p><b>Please note:</b> Glacier investments will not appear in a search and will need to be entered manually.</p>
+            </aside>
+            <div id="search">
+                <form action="">
+                    <h4>Search by</h4>
+                    <button type="button" class="btn1" id="btn1" >Personal details</button><button type="button" class="btn1" id="btn1">Identity type</button><button type="button" class="btn1" id="btn1">Member number</button>
+                    <button type="button" class="btn1" id="btn1">Plan number</button>
+                </form>
+            </div>
+            <form action="">
+            <div id="part1">
+                    <br>
+                    <br>
+                    <input type="text" placeholder="Name" id="btn3"><input type="text" placeholder="Surname" id="btn4">
+                    <br>
+                    <br>
+                    <input type="date" id="btn5" placeholder="Date of birth"><input type="text" placeholder="Initials (optional)" id="btn6">
+            </div>
+                    <div id="idType">
+                    <select name="ID type" id="id">
+                    <option value="">ID type</option>
+                    <option value="Passport">Passport</option>
+                    <option value="Visa">Visa</option>
+                    <option value="ID">ID</option>
+                    <option value="Drivers License">Drivers License</option>
+                </select>
+                <input type="text" id="txt" placeholder="ID number">
+            </div>
+                <h4>Authorisation</h4>
+            <div id="authorisation">
+                 <p>The client's <a href="#">written authorty</a> is required if this information is required by or on behlaf of an intermediary
+                    who is not the client's official care intermediary.</p>
+                 <p>During the routine monitoring you may be requested to present the client's written authority and must therefore
+                    retain a copy of the written authority for at least five years or a longer periodif requested by law.
+                </p>
+            </div>
+            <br>
+            <br>
+            <br>
+            <h4>Information is requested by, or on behalf of:</h4>
+            <div id="info">
+                <input type="radio"><label>An intermediary who is the client's official care intermediary</label>
+                <br>
+                <input type="radio"><label>An intermediary who has the client's written authority</label>
+                <br>
+                <input type="radio"><label>Sanlam Head Office - for internal use</label>
+            </div>
+            <br>
+            <div class="btn-group">
+                <button id="cancel" type="reset" onclick="cancel()">Cancel</button>
+                <button id="btnsearch" type="submit" onclick="done()">Search</button>
+            </div>
+        </form>
+        <!-- retirement plan -->
+        <div id="main">
+        <div class="divboxshadow">
+                <h1><i>&#xf053;</i>Select existing retirement saving(s)<button class="close" onclick="close()" style="color: grey; border: none;">X</button></h1>
+               <!-- <div class="outer">
+                    <div class="button">X</div>
+                </div> -->
+                <hr>
+                <br>
+                <table id="table1" class="grouped">
+                    <caption class="grouped"><i>&#xf406;</i><b>Mr Eugene Botha</b></caption>
+                    <tr>
+                        <th id="th1">ID Number</th>
+                        <th id="th1">Number of claims</th>
+                        <th id="th1">Date of birth</th>
+                    </tr>
+                    <tr>
+                        <td id="td1">7523001578123</td>
+                        <td id="td1">73071/8542/00</td>
+                        <td id="td1">00/00/00</td>
+                    </tr>
+                </table>
+                <br>
+                <hr>
+                <br>
+                <input type="checkbox" onclick="selects()" value="Select all" name="check"><b>Select all</b>
+                <br>
+                <br>
+                <div class="boxshadow2">
+                <form>
+                    <div class="divv">
+                    <table id="table2">
+                        <input type="checkbox" name="check" value="Cumulus Echo Retirement Plan"><label><b>Cumulus Echo Retirement Plan</b></label>
+                        <tr>
+                            <th>Plan number</th>
+                            <th>Total fund value</th>
+                            <th>Recurring contribution</th>
+                            <th>Start date</th>
+                            <th>End date</th>
+                        </tr>
+                        <tr>
+                            <td>EB382229332</td>
+                            <td>R2 299 000</td>
+                            <td>R1 500.00p/m</td>
+                            <td>01/01/2016</td>
+                            <td>01/01/2056</td>
+                        </tr>
+                    </table>
+                    </div>
+                    <br>
+                    <div class="divv">
+                    <table id="table2" style="opacity: 0.4;">
+                        <input type="checkbox" name="chec" value="Cumulus Echo Retirement Plan" disabled><label style="opacity: 0.4;"><b>Cumulus Echo Retirement Plan</b></label><button id="btn-2">Linked plan</button>
+                        <tr>
+                            <th>Plan number</th>
+                            <th>Total fund value</th>
+                            <th>Recurring contribution</th>
+                            <th>Start date</th>
+                            <th>End date</th>
+                        </tr>
+                        <tr >
+                                <td>EB382229332</td>
+                                <td>R4 299 000</td>
+                                <td>R2 500.00p/m</td>
+                                <td>01/01/2016</td>
+                                <td>01/01/2056</td>   
+                        </tr>
+                    </table>
+                    </div>
+                    <br>
+                    <div class="divv">
+                    <table id="table2">
+                        <input type="checkbox" name="check" value="Cumulus Echo Retirement Plan"><label><b>Cumulus Echo Retirement Plan</b></label>
+                        <tr>
+                            <th>Plan number</th>
+                            <th>Total fund value</th>
+                            <th>Recurring contribution</th>
+                            <th>Start date</th>
+                            <th>End date</th>
+                        </tr>
+                        <tr>
+                            <td>EB382229332</td>
+                            <td>R5 299 000</td>
+                            <td>R3 500.00p/m</td>
+                            <td>01/01/2016</td>
+                            <td>01/01/2056</td>
+                        </tr>
+                    </table>
+                    </div>
+                    <br>
+                    <div class="divv">
+                    <table id="table2">
+                        <input type="checkbox" name="check" value="Cumulus Echo Retirement Plan"><label><b>Cumulus Echo Retirement Plan</b></label><button id="btn-3">Existing retirement savings plan</button>
+                        <tr>
+                            <th>Plan number</th>
+                            <th>Total fund value</th>
+                            <th>Recurring contribution</th>
+                            <th>Start date</th>
+                            <th>End date</th>
+                        </tr>
+                        <tr>
+                            <td>EB382229332</td>
+                            <td>R2 599 000</td>
+                            <td>R1 550.00p/m</td>
+                            <td>01/01/2016</td>
+                            <td>01/01/2056</td>
+                        </tr>
+                    </table>
+                    </div>
+                </form>
+                </div>
+                <br>
+                <div class="btn-group">
+                    <button id="cancel" type="reset" onclick="cancel()">Cancel</button>
+                    <button id="submit" type="submit" onclick="done()">Done</button>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <hr>
+        <div id="webcapture">
+            <img id='web' src="C:\Users\Admin\Desktop\web portfolio\images\webCapture.jpeg">
+        </div>
+        <footer style="background-color: rgb(38, 25, 212); width: 100%; ">
+            <h3 style="font-size: 40px; color: white;">Conclusion</h3>
+            <p style="color: white; font-size: 20px;">This is only a mere reflection of what I am capabale of as a Junior within
+                 the industry. 
+                I strive to expand my expertise and technologies throughout this journey.
+            </p>
+        </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="C:\Users\Admin\Desktop\web portfolio\JavaScript\script.js"></script>
+</body>
+</html>

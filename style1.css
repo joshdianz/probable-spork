@@ -1,0 +1,125 @@
+html{
+    font-size: 100%;
+}
+#Plan{
+    background-color: grey;
+    width: 100%;
+    height: 850px;
+}
+#sanlam{
+   background-color: white;
+   height: 825px;
+   width: 70%;
+   margin-left: 2.5%;
+   box-shadow: 10px 10px black;
+}
+h4,h3{
+    margin-left: 3%;
+}
+aside{
+    background-color: rgb(139, 184, 241);
+    color: blue;
+    width: 88%;
+    height: 50px;
+    padding-top: 4px;
+    padding-left: 2%;
+    margin-left: 3%;
+}
+i{
+    color: grey;
+    margin-left: 75%;
+}
+.btn1{
+    width: 20%;
+    height: 40px;
+    margin-left: 3%;
+    color: grey;
+}
+.btn1:hover{
+    background-color: rgb(15, 90, 187);
+    color: white;
+    cursor: pointer;
+}
+.disabled{
+    cursor: not-allowed;
+}
+.btn1:focus{
+    background-color: rgb(143, 170, 229);
+    color: white;
+}
+#btn2{
+    width: 42%;
+    height: 40px;
+    margin-left: 3%;
+    color: grey;
+}
+#btn3{
+    width: 42%;
+    height: 40px;
+    margin-left: 3%;
+    color: grey;
+}
+#btn4{
+    width: 42.5%;
+    height: 40px;
+    margin-left: 3%;
+    color: grey;
+}
+#btn5{
+    width: 42%;
+    height: 40px;
+    margin-left: 3%;
+    color: grey;
+}
+#btn6{
+    width: 42.5%;
+    height: 40px;
+    margin-left: 3.2%;
+    color: grey;
+}
+a{
+    color: rgb(46, 101, 252);
+}
+#authorisation{
+    width: 88%;
+    height: 40px;
+    margin-left: 3.2%;
+    color: grey;
+    border: rgb(185, 130, 130);
+}
+input[type=radio]{
+    margin-left: 3.2%;
+}
+#cancel{
+    font-size: 18px;
+    color: rgb(51, 118, 173);
+    border-width: 5px;
+    border: grey;
+    font-size: 18px;
+    justify-content: flex-end;
+}
+#btnsearch{
+    font-size: 18px;
+    color: white;
+    background-color: rgb(51, 118, 173);
+    border-width: 5px;
+    border: none;
+    font-size: 18px;
+    justify-content: flex-end;
+}
+.btn-group{
+    width: 20%;
+    justify-content: flex-end;
+}
+select{
+    width: 42%;
+    height: 40px;
+    margin-left: 3%;
+    color: grey;
+}
+#txt{
+    width: 42%;
+    height: 40px;
+    margin-left: 3%;
+    color: grey;
+}
